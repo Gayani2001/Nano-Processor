@@ -280,6 +280,7 @@ set_property PACKAGE_PIN U18 [get_ports Reset_in]
 
 
 ##Quad SPI Flash
+
 ##Note that CCLK_0 cannot be placed in 7 series devices. You can access it using the
 ##STARTUPE2 primitive.
 #set_property PACKAGE_PIN D18 [get_ports {QspiDB[0]}]
